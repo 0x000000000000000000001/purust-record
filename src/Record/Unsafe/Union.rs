@@ -1,4 +1,4 @@
-pub fn Record_Unsafe_Union__unsafeUnionFn() -> crate::UnknownType {
+pub fn Record_Unsafe_Union_unsafeUnionFn() -> crate::UnknownType {
     // Mock unsafeUnionFn
-    crate::UnknownType::new(0)
+    crate::UnknownType::new(Record_a { ..Default::default() })
 }
